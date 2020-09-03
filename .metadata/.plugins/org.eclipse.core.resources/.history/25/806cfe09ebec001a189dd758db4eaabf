@@ -1,0 +1,19 @@
+
+public class Problem2 {
+
+	public static void main(String[] args) {
+		// inuput : Shivam Singh Yadav
+		// Output : S.S.Yadav
+		String input = " Shvam Singh Yadav";
+		String output = "";
+		String ns = "";
+		for(int i = 0 ; i < input.lastIndexOf(' '); i++) {
+			char ch = input.charAt(i);
+			if(ch == ' ') {
+				ns += (char)ch+1+".";
+			}
+		}
+		System.out.println(ns);
+	}
+
+}

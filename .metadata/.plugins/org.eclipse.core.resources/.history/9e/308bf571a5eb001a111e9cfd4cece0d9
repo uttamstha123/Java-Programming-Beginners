@@ -1,0 +1,10 @@
+package $2BankAccountApp;
+
+public class $1BankAccountApp {
+
+	public static void main(String[] args) {
+		$2BankAccount account1 = new $2BankAccount();
+		$2BankAccount account2 = new $2BankAccount("Saving");
+	}
+
+}

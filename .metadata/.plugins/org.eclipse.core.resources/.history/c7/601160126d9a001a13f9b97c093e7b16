@@ -1,0 +1,20 @@
+
+public class HCF {
+
+	public static void main(String[] args) {
+		HCF ob = new HCF();
+		System.out.println(ob.findHcf(48, 72));
+	}
+	int findHcf(int n1, int n2) {
+		int result = 1;
+		for(int i = 2 ; i < n1 || i < n2 ; i++) {
+			if(n1 % i == 0 && n2 % i == 0) {
+				result = result * i;
+				n1 = n1 / i;
+				n2 = n2 / i;
+			}
+		}
+		return result;
+	}
+
+}

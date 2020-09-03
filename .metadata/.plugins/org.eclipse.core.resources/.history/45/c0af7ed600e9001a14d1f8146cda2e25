@@ -1,0 +1,21 @@
+
+public class $2Calculator {
+
+	public static void main(String[] args) {
+		$2Calculator calc = new $2Calculator();
+		System.out.println("Program is starting");
+		sumNumbers();
+	}
+
+	static void sumNumbers(int a, int b) {
+		System.out.println("This is sum method");
+	}
+//	
+//	addNumbers()
+//	
+//	subsNumbers()
+//	
+//	divideNumbers()
+//	
+
+}

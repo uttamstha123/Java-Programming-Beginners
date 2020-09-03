@@ -1,0 +1,6 @@
+package $2BankAccountApp;
+
+public interface IRate {
+	// Interface
+	public void rate();
+}

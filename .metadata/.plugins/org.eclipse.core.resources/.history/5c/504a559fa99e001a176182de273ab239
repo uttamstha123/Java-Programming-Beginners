@@ -1,0 +1,51 @@
+import java.util.*;
+public class EncruptandDecrypt {
+
+	// accept a string 
+	// take out each character and add a value
+	// print the encrypted after the input
+	
+	
+	// Global Variable
+	String s = "";
+	int key = 0;
+	Scanner sc = new Scanner(System.in);
+	Scanner scan = new Scanner(System.in);
+	
+	public void input() {
+		System.out.println("Enter the String : ");
+		this.s = scan.nextLine();
+		System.out.println("Enter the Key : ");
+		this.key = sc.nextInt();
+	}
+	
+	public String encrypt(String s,int key) {
+		int l = s.length();
+		String encrypted = "";
+		for(int i = 0 ; i < l ; i++) {
+			char ch = (char) (s.charAt(i) + key);
+			encrypted += ch;
+		}
+		return encrypted;
+	}
+	public void decrypt(String s) {
+		String decrypted ="";
+		for(int i = 0 ; i < s.length() ; i++) {
+			char ch = (char) (s.charAt(i) - this.key);
+			decrypted += ch;
+		}
+		System.out.println(decrypted);
+	}
+	public static void main(String[] args) {
+		EncruptandDecrypt ob = new EncruptandDecrypt();
+		ob.input();
+		String encrypted = ob.encrypt(ob.s,ob.key);
+		System.out.println(encrypted);
+		System.out.println("Press 'D' to decrypt");
+		String user = ob.scan.nextLine().toUpperCase();
+		if(user.equals("D")) {
+			ob.decrypt(encrypted);
+		}
+	}
+	
+}

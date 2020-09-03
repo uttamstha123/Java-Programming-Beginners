@@ -1,0 +1,10 @@
+
+public class $5String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String bookTitle = "Merchant Of Venice";
+		System.out.println(bookTitle.contains("Venice"));
+	}
+
+}

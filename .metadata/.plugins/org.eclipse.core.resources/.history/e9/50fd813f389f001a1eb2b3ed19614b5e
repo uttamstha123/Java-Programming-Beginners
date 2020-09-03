@@ -1,0 +1,30 @@
+
+public class Pattern1 {
+
+	public static void main(String[] args) {
+//			*
+//		  * * *
+//		* * * * *
+//    * * * * * * *
+//  	* * * * *
+//  	  * * *
+//  	    *
+		// First Pattern
+//			*
+//		  * * *
+//		* * * * *
+//    * * * * * * *
+		int i, j; int c = 3;
+		for (i = 0; i < 4; i++) {
+			for(j = c ; j > 0 ; j--) {
+				System.out.print(" ");
+			}
+			for(int k = 0  ; k <= i ; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			c--;
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package operators;
+
+public class TypesOfOperators {
+
+		public static void main(String args[]) {
+			// Arithmatic operators
+			// + , - , / , * , % .
+			int a = 4;
+			int b = 9;
+			int c = a+b;
+			int d = c >> 1; // half the value of c once .
+			int e = c << 1; // double the value of c once;
+			System.out.println(c+" "+d+" "+e);
+		}
+}

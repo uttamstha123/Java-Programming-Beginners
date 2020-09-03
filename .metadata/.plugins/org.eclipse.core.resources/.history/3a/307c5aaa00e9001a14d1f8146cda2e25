@@ -1,0 +1,19 @@
+
+public class $2Calculator {
+
+	public static void main(String[] args) {
+		$2Calculator calc = new $2Calculator();
+	}
+
+	static void sumNumbers() {
+		System.out.println("This is sum method");
+	}
+//	
+//	addNumbers()
+//	
+//	subsNumbers()
+//	
+//	divideNumbers()
+//	
+
+}

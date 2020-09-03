@@ -1,0 +1,29 @@
+package $3bankAccountApp;
+
+public class $1BankAccountApp {
+
+	public static void main(String[] args) {
+		BankAccount account1 = new BankAccount("64366464");
+		BankAccount account2 = new BankAccount("64366464");
+		BankAccount account3 = new BankAccount("64366464");
+	}
+
+}
+
+class BankAccount {
+	// properties of bank account --> Encapsulation
+	private String name;
+	private String accountNumber; // id + 2digit random number + first 2 ssn
+	private String email;
+	private String ssn;
+	private double balance;
+	private static int id = 100;
+
+	// Constructor
+	BankAccount(String ssn) {
+		System.out.println("Account has been Created");
+		id++;
+		System.out.println(id);
+	}
+
+}

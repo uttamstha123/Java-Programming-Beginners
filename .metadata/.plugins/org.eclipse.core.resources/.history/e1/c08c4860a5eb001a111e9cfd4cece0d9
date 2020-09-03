@@ -1,0 +1,28 @@
+package $2BankAccountApp;
+
+public class $2BankAccount {
+	String accountNumber;
+	String name;
+	String ifsc;
+	long phno;
+	String email;
+	double ammount;
+	
+	// Constructor
+		// 1. To initialize the propertise, value
+		// 2. Same name as class itself
+		// 3. Have no Return Type
+	$2BankAccount(){
+		System.out.println("New Account Created");
+	}
+	void deposit() {
+		
+	}
+
+	void withdraw() {
+		
+	}
+	void stats() {
+		
+	}
+}

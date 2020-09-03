@@ -1,0 +1,25 @@
+
+public class $1AgeValidation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Check if he/she is qualified for the voting.
+		
+		// create an age variable
+//		int age = 19;
+//		if(age >= 18)
+//			System.out.println("Valid");
+//		else
+//			System.out.println("Not Valid");
+//		
+		// 2. Checking the power of password
+		String pswd = "passwd211";
+		if(pswd.length() <= 6) 
+			System.out.println("Too weak");
+		else if(pswd.length() <= 6 || pswd.contains("2"))
+			System.out.println("Strong");
+		else if(pswd.length() > 8)
+			System.out.println("Too Strong");
+	}
+
+}

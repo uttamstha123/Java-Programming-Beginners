@@ -1,0 +1,18 @@
+package StudentDatabase;
+
+public class StudentDatabase {
+	// Variables
+	String name;
+	String ssn;
+	int id;
+	String userId;
+	private long phno;
+	private String city;
+	private String state;
+
+	// Constructor to take name and ssn
+	StudentDatabase(String name, String ssn){
+		this.name = name;
+		this.ssn = ssn;
+	}
+}

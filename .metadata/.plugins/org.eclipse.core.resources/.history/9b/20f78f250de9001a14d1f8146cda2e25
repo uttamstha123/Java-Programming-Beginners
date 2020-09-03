@@ -1,0 +1,17 @@
+
+public class $3Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Declare and Assign an array
+		// Datatype[] variableName = {...values};
+		String[] names = {"Uttam","Saroj","Sugam","Sunita","Susma"};
+		// indexing starts with 0
+		// To print the values use 'variable[index]'
+		System.out.println(names[0]);
+		// Change the value
+		names[0] = "Ajbin";
+		System.out.println(names[0]);
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class Encryption {
+	public static void main(String args[]) {
+		String str = "Uttam"; char newCh = '\u0000';
+		int key = 10;
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			newCh = ch;
+		}
+		System.out.println(newCh);
+	}
+}

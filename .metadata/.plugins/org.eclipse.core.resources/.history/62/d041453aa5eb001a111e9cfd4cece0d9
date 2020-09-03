@@ -1,0 +1,9 @@
+package $2BankAccountApp;
+
+public class $1BankAccountApp {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

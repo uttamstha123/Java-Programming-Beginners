@@ -1,0 +1,15 @@
+
+public class $6ProjectOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(sumToNum(5));
+	}
+	public static int sumToNum(int n) {
+		if(n == 0)
+			return 0;
+		else
+			return n + sumToNum(n-1) ;
+	}
+
+}

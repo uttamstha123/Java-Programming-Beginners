@@ -1,0 +1,29 @@
+
+public class Pattern1 {
+
+	public static void main(String[] args) {
+//			*
+//		  * * *
+//		* * * * *
+//    * * * * * * *
+//  	* * * * *
+//  	  * * *
+//  	    *
+		
+		
+		// First Pattern
+//			*
+//		  * * 
+//		* * * 
+//    * * * * 
+		for(int sp = 0 ; sp < 4; sp ++) {
+			for(int sp1 = 3 ; sp1 > 0; sp1 --) {
+				System.out.print(" ");
+			}
+			System.out.println();
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Encryption {
+	public static void main(String args[]) {
+		String str = "Uttam"; String newStr = "";
+		int key = 10;
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			if(ch+key < 90) {
+				newStr += (char)ch + key;
+			}
+			else {
+				newStr += (char)(ch + key - 26);
+			}
+			System.out.print(newStr);
+		}
+	}
+}

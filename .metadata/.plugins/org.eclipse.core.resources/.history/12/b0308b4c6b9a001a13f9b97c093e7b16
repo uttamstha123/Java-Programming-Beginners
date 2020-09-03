@@ -1,0 +1,11 @@
+
+public class HCF {
+
+	public static void main(String[] args) {
+		
+	}
+	int findHcf(int n1, int n2) {
+		
+	}
+
+}

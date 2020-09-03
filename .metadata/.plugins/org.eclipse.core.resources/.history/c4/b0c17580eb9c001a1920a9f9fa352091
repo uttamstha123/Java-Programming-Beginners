@@ -1,0 +1,38 @@
+package ObjectOriented;
+
+public class JavaConstructors {
+	String name ;
+	int age;
+	String grade;
+	long phoneNum;
+	
+	// Lets create the constructor
+	JavaConstructors(){} // this is default constructor
+	JavaConstructors(String name , int age , String grade, long phoneNum){
+		this.name = name;
+		this.age = age;
+		this.grade = grade;
+		this.phoneNum = phoneNum;
+	}
+	public static void resultPass() {
+		System.out.println("Pass !");
+	}
+	public static void resultFail() {
+		System.out.println("Failed !");
+	}
+	
+	// Main class
+	public static void main(String[] args) {
+		JavaConstructors result = new JavaConstructors();
+		
+		// This seems to be soo hardwork
+//		result.name = "Uttam";
+//		result.age = 17;
+//		result.grade = "11th";
+//		result.phoneNum = 9125106355l;
+		
+		
+		resultPass();
+		System.out.println(result.name+" - "+result.age +" - "+result.grade);
+	}
+}

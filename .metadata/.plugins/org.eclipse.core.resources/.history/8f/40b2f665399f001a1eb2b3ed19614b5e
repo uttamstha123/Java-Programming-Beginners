@@ -1,0 +1,43 @@
+
+public class Pattern1 {
+
+	public static void main(String[] args) {
+//			*
+//		  * * *
+//		* * * * *
+//    * * * * * * *
+//  	* * * * *
+//  	  * * *
+//  	    *
+		// First Pattern
+//			*
+//		  * * *
+//		* * * * *
+//    * * * * * * *
+		int i, j; int c = 3; int d = 0;
+		for (i = 0; i < 4; i++) {
+			for(j = c ; j > 0 ; j--) {
+				System.out.print(" ");
+			}
+			for(int k = 0  ; k < (2*i)+1; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			c--;
+		}
+//  		* * * * *
+//		  	  * * *
+//		 	    *
+		for (i = 4; i > 0; i--) {
+			for(j = 0 ; j < d-1 ; j++) {
+				System.out.print(" ");
+			}
+			for(int k = 0  ; k < (2*i)+1; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			d--;
+		}
+	}
+
+}

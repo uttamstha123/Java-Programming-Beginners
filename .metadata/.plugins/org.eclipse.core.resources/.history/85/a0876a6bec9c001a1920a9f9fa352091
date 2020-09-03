@@ -1,0 +1,52 @@
+package ObjectOriented;
+
+import java.util.Scanner;
+
+public class JavaConstructors {
+	String name;
+	int age;
+	String grade;
+	long phoneNum;
+
+	// Lets create the constructor
+	JavaConstructors() {
+	} // this is default constructor
+
+	JavaConstructors(String name, int age, String grade, long phoneNum) {
+		name = name;
+		age = age;
+		grade = grade;
+		phoneNum = phoneNum;
+	}
+
+	public static void resultPass() {
+		System.out.println("Pass !");
+	}
+
+	public static void resultFail() {
+		System.out.println("Failed !");
+	}
+
+	// Main class
+	public static void main(String[] args) {
+		String name,grade; int age; long phno;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the Name of the Student: \n");
+		name = sc.nextLine();
+		System.out.print("Enter the age of the Student: \n");
+		age = sc.nextInt();
+		System.out.print("Enter the grade: \n");
+		grade = sc.nextLine();
+		System.out.print("Enter the Phone Number: \n");
+		JavaConstructors result = new JavaConstructors("Uttam", 17, "12th", 9125106355l);
+
+		// This seems to be soo hardwork
+//		result.name = "Uttam";
+//		result.age = 17;
+//		result.grade = "11th";
+//		result.phoneNum = 9125106355l;
+
+		resultPass();
+		System.out.println(result.name + " - " + result.age + " - " + result.grade);
+	}
+}

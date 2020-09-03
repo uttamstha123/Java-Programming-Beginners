@@ -1,0 +1,38 @@
+package $2BankAccountApp;
+
+public class $2BankAccount {
+	String accountNumber;
+	// static >> belongs to CLASS variable
+	// final make the varaible's vlue constant
+	static final String bankCode = "165145";
+	String name;
+	String ifsc;
+	long phno;
+	String email;
+	double ammount;
+
+	// Constructor
+	// 1. To initialize the propertise, value
+	// 2. Same name as class itself
+	// 3. Have no Return Type
+	$2BankAccount() {
+		System.out.println("New Account Created");
+	}
+
+	// Contructor Overloading
+	$2BankAccount(String accountType) {
+		System.out.println("Account Type : " + accountType);
+	}
+
+	void deposit() {
+
+	}
+
+	void withdraw() {
+
+	}
+
+	void stats() {
+
+	}
+}

@@ -1,0 +1,9 @@
+package $2BankAccountApp;
+
+public class $3SavingAccount extends $2BankAccount {
+	String accountType;
+	double totalAmount;
+	void totalBalance(int withdraw) {
+		System.out.println("Balance Left : "+ (totalAmount - withdraw));
+	}
+}

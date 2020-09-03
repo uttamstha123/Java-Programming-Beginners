@@ -1,0 +1,10 @@
+package $3bankAccountApp;
+
+public class $1BankAccountApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
